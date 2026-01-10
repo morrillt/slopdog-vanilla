@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm --prefix src run build",
+  "installCommand": "npm --prefix src install",
+  "framework": "nextjs"
+}
+

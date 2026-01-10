@@ -1,0 +1,28 @@
+{
+  "name": "slopdogrpg-root",
+  "private": true,
+  "packageManager": "npm@10",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "npm --prefix src run dev -- --hostname 0.0.0.0 --port 3001",
+    "build": "npm --prefix src run build",
+    "start": "npm --prefix src run start",
+    "lint": "npm --prefix src run lint",
+    "test": "npm run test:unit && npm run test:e2e",
+    "test:unit": "vitest run",
+    "test:e2e": "playwright test",
+    "logger:build": "npm --prefix packages/logger run build"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3",
+    "vitest": "^4.0.0"
+  }
+}
+

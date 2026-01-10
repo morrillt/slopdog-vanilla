@@ -1,0 +1,22 @@
+.env
+.DS_Store
+
+# node
+node_modules/
+src/node_modules/
+npm-debug.log*
+
+# next
+src/.next/
+src/out/
+
+# vercel
+.vercel/
+
+# tests
+playwright-report/
+test-results/
+
+# build
+dist/
+build/
