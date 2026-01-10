@@ -81,7 +81,7 @@ export function Header() {
               <span className="text-xs font-bold text-mocha-blue">NP</span>
             </div>
             <h1 className="text-lg font-black text-mocha-text tracking-tight uppercase">
-              NEW PROJECT
+              Slopdog Vanilla
             </h1>
           </div>
 

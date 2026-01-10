@@ -11,7 +11,7 @@ export function AppShell() {
     <main className="min-h-screen p-6">
       <div className="mx-auto max-w-3xl space-y-6">
         <header className="space-y-2">
-          <h1 className="text-3xl font-semibold tracking-tight">slopdogrpg</h1>
+          <h1 className="text-3xl font-semibold tracking-tight">slopdog-vanilla</h1>
           <p className="text-sm opacity-80">{snap.subtitle}</p>
         </header>
 

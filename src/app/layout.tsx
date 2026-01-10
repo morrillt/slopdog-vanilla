@@ -6,7 +6,7 @@ import { LayoutWrapper } from "@/components/LayoutWrapper";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "slopdogrpg",
+  title: "Slopdog Vanilla",
   description: "RPG playground scaffold",
 };
 

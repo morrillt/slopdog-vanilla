@@ -1,5 +1,5 @@
 {
-  "name": "slopdogrpg-root",
+  "name": "slopdog-vanilla-root",
   "private": true,
   "packageManager": "npm@10",
   "workspaces": [

@@ -1,5 +1,5 @@
 {
-  "name": "@slopdogrpg/logger",
+  "name": "@slopdog-vanilla/logger",
   "version": "0.1.0",
   "private": true,
   "type": "module",

@@ -8,7 +8,7 @@ export default [
   ...nextCoreWebVitals,
   ...nextTypescript,
   {
-    name: "slopdogrpg/config-overrides",
+    name: "slopdog-vanilla/config-overrides",
     files: ["**/*.config.*", "eslint.config.mjs", "postcss.config.mjs", "next.config.ts"],
     rules: {
       "import/no-anonymous-default-export": "off",
