@@ -37,7 +37,7 @@ export const UtilityPanel: React.FC<UtilityPanelProps> = ({ onClose }) => {
 
       <div className="pt-4 border-t border-mocha-surface1">
         <p className="text-[10px] text-mocha-subtext1 text-center italic opacity-50 uppercase tracking-widest">
-          Slopdog RPG Scaffold
+          Slopdog Vanilla UI
         </p>
       </div>
     </div>

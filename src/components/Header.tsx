@@ -148,11 +148,18 @@ export function Header() {
               What is this app?
             </button>
             <button 
-              onClick={() => setVideoModal({ isOpen: true, title: 'oneshotted by BROZ OS' })}
+              onClick={() => setVideoModal({ isOpen: true, title: 'Powered by Slopdog' })}
               className="flex items-center gap-2 text-mocha-mauve hover:text-mocha-pink transition-colors font-mono font-bold"
             >
-              <Play className="w-4 h-4" />
-              oneshotted by BROZ OS
+              <Image
+                alt="slopdog icon"
+                className="rounded-full"
+                height={20}
+                width={20}
+                priority
+                src="/image.png"
+              />
+              Powered by Slopdog
             </button>
           </div>
 
@@ -167,18 +174,6 @@ export function Header() {
             >
               <SettingsIcon className="w-5 h-5" />
             </Button>
-            <div className="h-6 w-px bg-mocha-surface1" />
-            <div className="flex items-center gap-2 text-xs opacity-90">
-              <span>Powered by Slopdog</span>
-              <Image
-                alt="slopdog icon"
-                className="rounded-full"
-                height={32}
-                width={32}
-                priority
-                src="/image.png"
-              />
-            </div>
           </div>
         </div>
       </header>

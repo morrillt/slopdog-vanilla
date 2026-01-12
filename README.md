@@ -1,10 +1,34 @@
-# Slopdog RPG Theme
+# Slopdog Vanilla Theme
 
-A vanilla getting started theme for **Slopdog OSS**, built on the **broz framework**. This scaffold provides a clean, opinionated baseline for building RPGs and interactive web applications using the latest web technologies.
+A vanilla getting started theme for **Slopdog OS**. This scaffold provides a clean, opinionated baseline for building interactive web applications using the latest web technologies.
+
+**Live Demo**: [https://slopdog-vanilla-3lqgnsp2n-morrillts-projects.vercel.app/](https://slopdog-vanilla-3lqgnsp2n-morrillts-projects.vercel.app/)
 
 ## Overview
 
-`slopdog-vanilla` is designed as a playground for Slopdog-native applications. It leverages the **Rockcap baseline** with a focus on high-performance state management, a beautiful default aesthetic (Catppuccin), and a robust developer experience.
+`slopdog-vanilla` is the reference implementation and starting point for projects built with **Slopdog OS**. While Slopdog OS provides the high-level commands and prompts for development, this theme provides the foundational tech stack for anyone who wants a modern web UI out of the box.
+
+It focuses on high-performance state management, a beautiful default aesthetic (Catppuccin), and a robust developer experience.
+
+## Create a New Project
+
+The easiest way to start a new project using this theme as a baseline is to use `degit`. This will download the code without the git history, giving you a fresh start.
+
+```bash
+# Create a new project folder and pull in the vanilla theme
+npx degit morrillt/slopdog-vanilla my-new-project
+
+# Navigate into your project
+cd my-new-project
+
+# Install everything
+npm install && cd src && npm install
+
+# Start development
+cd .. && npm run dev
+```
+
+Alternatively, you can just **Fork** this repository on GitHub or use the **Deploy** button below.
 
 ## Tech Stack
 
@@ -37,7 +61,7 @@ A vanilla getting started theme for **Slopdog OSS**, built on the **broz framewo
 
 ### Prerequisites
 
-This theme is designed to be used with **Slopdog OSS** and the **broz framework**. For advanced configuration and framework-level insights, refer to the framework definitions located in your environment (e.g., `~/.cursor`).
+This theme is the vanilla starting point for **Slopdog OS**—a set of commands and prompts used to build technology with a web UI. For advanced configuration and system-level insights, refer to the definitions located in your environment (e.g., `~/.cursor`).
 
 ### Installation
 
@@ -76,6 +100,44 @@ Or run them individually:
 npm run test:unit  # Vitest
 npm run test:e2e   # Playwright
 ```
+
+## Deployment
+
+### Vercel CLI (For Quick Deployment)
+
+If you prefer using the terminal, you can deploy instantly using the Vercel CLI:
+
+1.  **Install Vercel CLI**:
+    ```bash
+    npm install -g vercel
+    ```
+
+2.  **Deploy**:
+    From the root of this project, simply run:
+    ```bash
+    vercel
+    ```
+    *(Follow the prompts to link the project and deploy. The `vercel.json` will ensure the correct commands are used).*
+
+3.  **Deploy to Production**:
+    ```bash
+    vercel --prod
+    ```
+
+### Vercel Dashboard (Recommended for CI/CD)
+
+1.  **Push to GitHub**: Push your repository to GitHub.
+2.  **Connect to Vercel**: Import the project in Vercel.
+3.  **Automatic Detection**: Vercel will detect the `vercel.json` and automatically configure the following:
+    - **Build Command**: `npm run build`
+    - **Install Command**: `npm install`
+    - **Framework**: `Next.js`
+4.  **Public Access**: By default, this configuration ensures the site is public. Vercel Authentication (Deployment Protection) is disabled for production branch deploys unless manually enabled in your Vercel project settings.
+5.  **Environment Variables**: Ensure you add any required environment variables (like `E2E_PROD_BASE_URL` for tests) in the Vercel dashboard.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyour-username%2Fslopdog-vanilla)
+
+*(Note: Replace the repository URL with your actual repo link for the one-click deploy to work).*
 
 ## Features Included
 

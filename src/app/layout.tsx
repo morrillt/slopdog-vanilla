@@ -7,7 +7,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Slopdog Vanilla",
-  description: "RPG playground scaffold",
+  description: "Slopdog OS Vanilla Web UI",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
