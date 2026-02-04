@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LayoutGrid, Palette, Route, Navigation, Settings as SettingsIcon, Github, HelpCircle, Play, X, PanelLeftOpen, PanelLeftClose } from 'lucide-react';
+import { LayoutGrid, Palette, Route, Navigation, Settings as SettingsIcon, Github, HelpCircle, Play, X, PanelLeftOpen, PanelLeftClose, FileText } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { SettingsPanel } from './SettingsPanel';
 import { useSnapshot } from 'valtio';
@@ -60,6 +60,7 @@ export function Header() {
   useEffect(() => {
     if (pathname === '/') setActiveRoute('home');
     else if (pathname === '/styles') setActiveRoute('theme');
+    else if (pathname?.startsWith('/docs')) setActiveRoute('docs');
     else if (pathname === '/route3') setActiveRoute('route3');
     else if (pathname === '/route4') setActiveRoute('route4');
   }, [pathname]);
@@ -106,6 +107,17 @@ export function Header() {
               >
                 <Palette className="w-4 h-4" />
                 Theme
+              </Button>
+            </Link>
+            <Link href="/docs">
+              <Button
+                variant={activeRoute === 'docs' ? 'primary' : 'ghost'}
+                size="sm"
+                onClick={() => setActiveRoute('docs')}
+                className="flex items-center gap-2"
+              >
+                <FileText className="w-4 h-4" />
+                Docs
               </Button>
             </Link>
             <Button

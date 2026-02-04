@@ -10,7 +10,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "npm --prefix src run dev -- --hostname 0.0.0.0 --port 3001",
+    "dev": "npm --prefix src run dev -- --hostname 0.0.0.0 --port 3005",
     "build": "npm --prefix src run build",
     "start": "npm --prefix src run start",
     "lint": "npm --prefix src run lint",
@@ -20,6 +20,7 @@
     "logger:build": "npm --prefix packages/logger run build"
   },
   "devDependencies": {
+    "@rockcap/docs-router": "file:../../packages/docs-router",
     "@playwright/test": "^1.57.0",
     "next": "^16.1.1",
     "react": "^19.2.1",

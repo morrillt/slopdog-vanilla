@@ -1,0 +1,1262 @@
+[ 1888919ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 1888919ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 |
+  7 | export default function DocPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 1898466ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 1898466ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 |
+  7 | export default function DocPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 1899812ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 1899812ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 |
+  7 | export default function DocPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 1907487ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 1907487ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 |
+  7 | export default function DocPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 1985861ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 1985861ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 |
+  7 | export default function DocPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 1987755ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 1987755ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 |
+  7 | export default function DocPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 1990932ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 1990932ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 |
+  7 | export default function DocPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2010162ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2010162ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2089189ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2089189ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2089225ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2089225ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2128907ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2128908ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2129280ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2129280ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2129335ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2129335ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2129659ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2129660ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2129702ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2129702ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2129813ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2129814ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2130080ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2130080ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2130309ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2130310ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2144751ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2144751ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2144864ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2144865ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2145127ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2145128ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2145353ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2145353ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2153338ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2153338ms] [ERROR] ./playground/slopdog-vanilla/src/app/api/docs/manifest/route.ts:1:1
+Module not found: Can't resolve '@rockcap/docs-router/server'
+> 1 | import { createManifestHandler } from "@rockcap/docs-router/server";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 |
+  4 | const config = {
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2153338ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2175559ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2175559ms] [ERROR] ./playground/slopdog-vanilla/src/app/api/docs/manifest/route.ts:1:1
+Module not found: Can't resolve '@rockcap/docs-router/server'
+> 1 | import { createManifestHandler } from "@rockcap/docs-router/server";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 |
+  4 | const config = {
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2175559ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2198269ms] [ERROR] ./playground/slopdog-vanilla/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /home/broz/code/playground/slopdog-vanilla/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/home/broz/code/playground/slopdog-vanilla/src/app'
+    [at Input.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/home/broz/code/playground/slopdog-vanilla/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/globals.css [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/layout.tsx [Server Component] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2198272ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2198272ms] [ERROR] ./playground/slopdog-vanilla/src/app/api/docs/manifest/route.ts:1:1
+Module not found: Can't resolve '@rockcap/docs-router/server'
+> 1 | import { createManifestHandler } from "@rockcap/docs-router/server";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 |
+  4 | const config = {
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2198272ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2205817ms] [ERROR] ./playground/slopdog-vanilla/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /home/broz/code/playground/slopdog-vanilla/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/home/broz/code/playground/slopdog-vanilla/src/app'
+    [at Input.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/home/broz/code/playground/slopdog-vanilla/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/globals.css [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/layout.tsx [Server Component] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2205817ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocsExplorer, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from "next/link";
+  6 |
+  7 | export default function DocsPage() {
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2205817ms] [ERROR] ./playground/slopdog-vanilla/src/app/api/docs/manifest/route.ts:1:1
+Module not found: Can't resolve '@rockcap/docs-router/server'
+> 1 | import { createManifestHandler } from "@rockcap/docs-router/server";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 |
+  4 | const config = {
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2205817ms] [ERROR] ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx:4:1
+Module not found: Can't resolve '@rockcap/docs-router'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { DocViewer, DocMetadata, Manifest } from "@rockcap/docs-router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { useRouter, useParams } from "next/navigation";
+  6 | import Link from "next/link";
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Client Component SSR]
+    ./playground/slopdog-vanilla/src/app/docs/[...slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2206187ms] [ERROR] ./playground/slopdog-vanilla/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /home/broz/code/playground/slopdog-vanilla/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/home/broz/code/playground/slopdog-vanilla/src/app'
+    [at Input.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/home/broz/code/playground/slopdog-vanilla/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/globals.css [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/layout.tsx [Server Component] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2206187ms] [ERROR] ./playground/slopdog-vanilla/src/app/api/docs/manifest/route.ts:1:1
+Module not found: Can't resolve '@rockcap/docs-router/server'
+> 1 | import { createManifestHandler } from "@rockcap/docs-router/server";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 |
+  4 | const config = {
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 2215288ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=CfYZQGlhIAaPO1LlFrYag." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 2216292ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=CfYZQGlhIAaPO1LlFrYag." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 2217296ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=CfYZQGlhIAaPO1LlFrYag." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 2218527ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=CfYZQGlhIAaPO1LlFrYag." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 2220368ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=CfYZQGlhIAaPO1LlFrYag." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 2225605ms] Error: ./playground/slopdog-vanilla/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /home/broz/code/playground/slopdog-vanilla/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/home/broz/code/playground/slopdog-vanilla/src/app'
+    [at Input.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/home/broz/code/playground/slopdog-vanilla/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/globals.css [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/layout.tsx [Server Component]
+
+
+    at getServerError (http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_949713ca._.js:2060:37)
+    at hydrate/< (http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fdd57c3f._.js:3606:27)
+    at setTimeout handler*hydrate (http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fdd57c3f._.js:3584:27)
+    at async*pageBootstrap (http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fdd57c3f._.js:3856:26)
+    at  (http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fdd57c3f._.js:4005:45)
+    at promise callback* (http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fdd57c3f._.js:3991:4)
+    at instantiateModule/< (http://127.0.0.1:3005/_next/static/chunks/turbopack-playground_slopdog-vanilla_src_pages__app_c52e05b0._.js:879:26)
+    at runModuleExecutionHooks (http://127.0.0.1:3005/_next/static/chunks/turbopack-playground_slopdog-vanilla_src_pages__app_c52e05b0._.js:904:26)
+    at instantiateModule (http://127.0.0.1:3005/_next/static/chunks/turbopack-playground_slopdog-vanilla_src_pages__app_c52e05b0._.js:877:32)
+    at getOrInstantiateRuntimeModule (http://127.0.0.1:3005/_next/static/chunks/turbopack-playground_slopdog-vanilla_src_pages__app_c52e05b0._.js:808:12)
+    at registerChunk (http://127.0.0.1:3005/_next/static/chunks/turbopack-playground_slopdog-vanilla_src_pages__app_c52e05b0._.js:1626:50)
+    at async*registerChunk (http://127.0.0.1:3005/_next/static/chunks/turbopack-playground_slopdog-vanilla_src_pages__app_c52e05b0._.js:1564:20)
+    at  (http://127.0.0.1:3005/_next/static/chunks/turbopack-playground_slopdog-vanilla_src_pages__app_c52e05b0._.js:1853:18)
+    at  (http://127.0.0.1:3005/_next/static/chunks/turbopack-playground_slopdog-vanilla_src_pages__app_c52e05b0._.js:1857:3)
+[ 2225639ms] [ERROR] ./playground/slopdog-vanilla/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /home/broz/code/playground/slopdog-vanilla/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/home/broz/code/playground/slopdog-vanilla/src/app'
+    [at Input.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/home/broz/code/playground/slopdog-vanilla/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/globals.css [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/layout.tsx [Server Component] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_949713ca._.js:1920
+[ 2225856ms] [ERROR] ./playground/slopdog-vanilla/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /home/broz/code/playground/slopdog-vanilla/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/home/broz/code/playground/slopdog-vanilla/src/app'
+    [at Input.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/home/broz/code/playground/slopdog-vanilla/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/globals.css [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/layout.tsx [Server Component] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_949713ca._.js:1920
+[ 2225857ms] [ERROR] ./playground/slopdog-vanilla/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /home/broz/code/playground/slopdog-vanilla/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/home/broz/code/playground/slopdog-vanilla/src/app'
+    [at Input.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/home/broz/code/playground/slopdog-vanilla/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/globals.css [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/layout.tsx [Server Component] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_949713ca._.js:1920
+[ 2230022ms] [ERROR] ./playground/slopdog-vanilla/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /home/broz/code/playground/slopdog-vanilla/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/home/broz/code/playground/slopdog-vanilla/src/app'
+    [at Input.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/home/broz/code/playground/slopdog-vanilla/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/globals.css [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/layout.tsx [Server Component] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_949713ca._.js:1920
+[ 2230215ms] [ERROR] ./playground/slopdog-vanilla/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /home/broz/code/playground/slopdog-vanilla/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/home/broz/code/playground/slopdog-vanilla/src/app'
+    [at Input.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/home/broz/code/playground/slopdog-vanilla/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/globals.css [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/layout.tsx [Server Component] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_949713ca._.js:1920
+[ 2242371ms] [ERROR] ./playground/slopdog-vanilla/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /home/broz/code/playground/slopdog-vanilla/src/app/globals.css:1:1: Can't resolve '@tailwindcss/typography' in '/home/broz/code/playground/slopdog-vanilla/src/app'
+    [at Input.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/home/broz/code/playground/slopdog-vanilla/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/playground/slopdog-vanilla/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./playground/slopdog-vanilla/src/app/globals.css [Client Component Browser]
+    ./playground/slopdog-vanilla/src/app/layout.tsx [Server Component] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_949713ca._.js:1920
+[ 3008419ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=1-pfk9kpp943au4Z5HV0x." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 3009427ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=1-pfk9kpp943au4Z5HV0x." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 3010436ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=1-pfk9kpp943au4Z5HV0x." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 3011442ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=1-pfk9kpp943au4Z5HV0x." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 3012628ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=1-pfk9kpp943au4Z5HV0x." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 3017636ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=1-pfk9kpp943au4Z5HV0x." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 3022643ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=1-pfk9kpp943au4Z5HV0x." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 3545642ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=7wvt0OKUFKkYgryfyNiYh." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 3546647ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=7wvt0OKUFKkYgryfyNiYh." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 3547652ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=7wvt0OKUFKkYgryfyNiYh." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 3548657ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=7wvt0OKUFKkYgryfyNiYh." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 3549839ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=7wvt0OKUFKkYgryfyNiYh." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 3554845ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=7wvt0OKUFKkYgryfyNiYh." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 3559848ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=7wvt0OKUFKkYgryfyNiYh." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 3564854ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=7wvt0OKUFKkYgryfyNiYh." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 3570809ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=7wvt0OKUFKkYgryfyNiYh." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877

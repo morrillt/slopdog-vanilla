@@ -1,0 +1,50 @@
+meta:
+  title: "Slopdog Vanilla Taxonomy"
+  updated: "2026-02-04"
+  description: >
+    Taxonomy definition for the docs system. Defines allowed facets and tags
+    for document front matter.
+
+facets:
+  type: [plan, note, guide, changelog]
+  status: [draft, active, deprecated, done]
+  epic:
+    number: string
+    name: string
+  repo:
+    path: string
+
+tags:
+  plan:
+    - epic
+    - ticket
+    - task
+
+  doc:
+    - howto
+    - reference
+    - guide
+    - beware
+
+  tech:
+    frontend:
+      - ui
+      - components
+      - architecture
+    backend:
+      - api
+      - lib
+    testing: []
+
+  ops:
+    - bug
+    - perf
+    - refactor
+
+  meta:
+    - index
+    - template
+
+  audience:
+    - dev
+    - user

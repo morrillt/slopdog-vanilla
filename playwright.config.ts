@@ -1,6 +1,6 @@
 import { defineConfig, devices } from "@playwright/test";
 
-const port = 3001;
+const port = 3005;
 const baseURL = `http://127.0.0.1:${port}`;
 
 const defaultHeadless =
@@ -20,7 +20,7 @@ export default defineConfig({
   webServer: {
     command: `npm --prefix src run dev -- --hostname 127.0.0.1 --port ${port}`,
     url: baseURL,
-    reuseExistingServer: !process.env.CI,
+    reuseExistingServer: true,
     timeout: 120_000,
   },
   projects: [

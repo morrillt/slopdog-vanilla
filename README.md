@@ -1,3 +1,30 @@
+---
+title: Slopdog Vanilla Theme
+facets:
+  type: note
+  status: active
+  summary:
+    human: >-
+      A vanilla starting theme for Slopdog OS providing a modern web application
+      foundation with Next.js, Tailwind CSS, and Valtio state management.
+    vector: >-
+      Slopdog Vanilla Theme is a Next.js 16-based project scaffold for Slopdog
+      OS featuring Tailwind CSS 4 with Catppuccin color palette, Valtio state
+      management, Lucide React icons, TypeScript, Vitest unit testing,
+      Playwright E2E testing, and Node.js 20+ runtime. Provides clean
+      opinionated baseline for interactive web applications with
+      developer-friendly logging utilities and monorepo structure. Ideal for
+      modern frontend development with high-performance state management and
+      beautiful defaults.
+tags:
+  - Slopdog OS
+  - Next.js
+  - Tailwind CSS
+  - Catppuccin
+  - Valtio
+  - Web Scaffolding
+  - TypeScript
+---
 # Slopdog Vanilla Theme
 
 A vanilla getting started theme for **Slopdog OS**. This scaffold provides a clean, opinionated baseline for building interactive web applications using the latest web technologies.

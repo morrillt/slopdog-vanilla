@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Scan docs-router package for Tailwind classes */
+@source "../../../../packages/docs-router/src/**/*.{ts,tsx}";
+
 @theme {
   --color-mocha-rosewater: #f5e0dc;
   --color-mocha-flamingo: #f2cdcd;
@@ -36,19 +39,32 @@
   color-scheme: dark;
 
   /* Compatibility aliases for existing code that uses --ctp-mocha-* */
+  --ctp-mocha-rosewater: var(--color-mocha-rosewater);
+  --ctp-mocha-flamingo: var(--color-mocha-flamingo);
+  --ctp-mocha-pink: var(--color-mocha-pink);
+  --ctp-mocha-mauve: var(--color-mocha-mauve);
+  --ctp-mocha-red: var(--color-mocha-red);
+  --ctp-mocha-maroon: var(--color-mocha-maroon);
+  --ctp-mocha-peach: var(--color-mocha-peach);
+  --ctp-mocha-yellow: var(--color-mocha-yellow);
+  --ctp-mocha-green: var(--color-mocha-green);
+  --ctp-mocha-teal: var(--color-mocha-teal);
+  --ctp-mocha-sky: var(--color-mocha-sky);
+  --ctp-mocha-sapphire: var(--color-mocha-sapphire);
+  --ctp-mocha-blue: var(--color-mocha-blue);
+  --ctp-mocha-lavender: var(--color-mocha-lavender);
+  --ctp-mocha-text: var(--color-mocha-text);
+  --ctp-mocha-subtext1: var(--color-mocha-subtext1);
+  --ctp-mocha-subtext0: var(--color-mocha-subtext0);
+  --ctp-mocha-overlay2: var(--color-mocha-overlay2);
+  --ctp-mocha-overlay1: var(--color-mocha-overlay1);
+  --ctp-mocha-overlay0: var(--color-mocha-overlay0);
+  --ctp-mocha-surface2: var(--color-mocha-surface2);
+  --ctp-mocha-surface1: var(--color-mocha-surface1);
+  --ctp-mocha-surface0: var(--color-mocha-surface0);
   --ctp-mocha-base: var(--color-mocha-base);
   --ctp-mocha-mantle: var(--color-mocha-mantle);
   --ctp-mocha-crust: var(--color-mocha-crust);
-  --ctp-mocha-surface0: var(--color-mocha-surface0);
-  --ctp-mocha-surface1: var(--color-mocha-surface1);
-  --ctp-mocha-surface2: var(--color-mocha-surface2);
-  --ctp-mocha-text: var(--color-mocha-text);
-  --ctp-mocha-subtext1: var(--color-mocha-subtext1);
-  --ctp-mocha-blue: var(--color-mocha-blue);
-  --ctp-mocha-mauve: var(--color-mocha-mauve);
-  --ctp-mocha-green: var(--color-mocha-green);
-  --ctp-mocha-peach: var(--color-mocha-peach);
-  --ctp-mocha-red: var(--color-mocha-red);
 
   --background: var(--color-mocha-base);
   --foreground: var(--color-mocha-text);
@@ -79,5 +95,25 @@ body {
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: var(--color-mocha-surface2);
+}
+
+/* Docs-specific prose overrides for Catppuccin theme */
+.prose {
+  --tw-prose-body: var(--color-mocha-subtext1);
+  --tw-prose-headings: var(--color-mocha-text);
+  --tw-prose-lead: var(--color-mocha-subtext0);
+  --tw-prose-links: var(--color-mocha-blue);
+  --tw-prose-bold: var(--color-mocha-text);
+  --tw-prose-counters: var(--color-mocha-overlay0);
+  --tw-prose-bullets: var(--color-mocha-overlay0);
+  --tw-prose-hr: var(--color-mocha-surface1);
+  --tw-prose-quotes: var(--color-mocha-subtext1);
+  --tw-prose-quote-borders: var(--color-mocha-mauve);
+  --tw-prose-captions: var(--color-mocha-overlay0);
+  --tw-prose-code: var(--color-mocha-blue);
+  --tw-prose-pre-code: var(--color-mocha-text);
+  --tw-prose-pre-bg: var(--color-mocha-surface0);
+  --tw-prose-th-borders: var(--color-mocha-surface1);
+  --tw-prose-td-borders: var(--color-mocha-surface1);
 }
 
