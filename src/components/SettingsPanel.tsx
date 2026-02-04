@@ -3,6 +3,8 @@
 import React from 'react';
 import { Button } from './ui/Button';
 import { Settings as SettingsIcon, X } from 'lucide-react';
+import { useSnapshot } from 'valtio';
+import { appStore } from '@/stores/appStore';
 
 interface SettingsPanelProps {
   onClose: () => void;
@@ -11,6 +13,8 @@ interface SettingsPanelProps {
 export const SettingsPanel: React.FC<SettingsPanelProps> = ({
   onClose,
 }) => {
+  const snap = useSnapshot(appStore);
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-end bg-black/50 backdrop-blur-sm animate-in fade-in duration-200">
       <div className="w-full max-w-md h-full bg-mocha-mantle border-l border-mocha-surface1 p-6 shadow-2xl overflow-y-auto overflow-x-hidden custom-scrollbar animate-in slide-in-from-right duration-300">
@@ -32,30 +36,61 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({
             <input
               type="text"
               className="w-full p-3 bg-mocha-surface0 border border-mocha-surface1 rounded-md text-mocha-text focus:outline-none focus:ring-2 focus:ring-mocha-blue"
-              defaultValue="NEW PROJECT"
+              value={snap.projectName}
+              onChange={(e) => appStore.projectName = e.target.value}
+              placeholder="Enter project name"
             />
+            <p className="text-xs text-mocha-subtext0 mt-1">
+              Displayed in the header
+            </p>
           </section>
 
           <section>
             <label className="block text-sm font-medium text-mocha-subtext1 mb-2">
-              Theme
+              Repository URL
             </label>
-            <select className="w-full p-3 bg-mocha-surface0 border border-mocha-surface1 rounded-md text-mocha-text focus:outline-none focus:ring-2 focus:ring-mocha-blue">
-              <option>Catppuccin Mocha</option>
-              <option>Catppuccin Latte</option>
-              <option>Catppuccin Frappé</option>
-              <option>Catppuccin Macchiato</option>
-            </select>
+            <input
+              type="url"
+              className="w-full p-3 bg-mocha-surface0 border border-mocha-surface1 rounded-md text-mocha-text focus:outline-none focus:ring-2 focus:ring-mocha-blue"
+              value={snap.repositoryUrl}
+              onChange={(e) => appStore.repositoryUrl = e.target.value}
+              placeholder="https://github.com/your/repo"
+            />
+            <p className="text-xs text-mocha-subtext0 mt-1">
+              Link shown in utility panel
+            </p>
           </section>
 
           <section>
             <label className="block text-sm font-medium text-mocha-subtext1 mb-2">
-              Description
+              App Info URL
             </label>
-            <textarea
-              className="w-full h-32 p-3 bg-mocha-surface0 border border-mocha-surface1 rounded-md text-mocha-text focus:outline-none focus:ring-2 focus:ring-mocha-blue"
-              placeholder="Project description..."
+            <input
+              type="url"
+              className="w-full p-3 bg-mocha-surface0 border border-mocha-surface1 rounded-md text-mocha-text focus:outline-none focus:ring-2 focus:ring-mocha-blue"
+              value={snap.appInfoUrl}
+              onChange={(e) => appStore.appInfoUrl = e.target.value}
+              placeholder="https://example.com/about"
             />
+            <p className="text-xs text-mocha-subtext0 mt-1">
+              "What is this app?" link in utility panel
+            </p>
+          </section>
+
+          <section>
+            <label className="block text-sm font-medium text-mocha-subtext1 mb-2">
+              Orientation Video URL
+            </label>
+            <input
+              type="url"
+              className="w-full p-3 bg-mocha-surface0 border border-mocha-surface1 rounded-md text-mocha-text focus:outline-none focus:ring-2 focus:ring-mocha-blue"
+              value={snap.orientationVideoUrl}
+              onChange={(e) => appStore.orientationVideoUrl = e.target.value}
+              placeholder="https://youtube.com/watch?v=..."
+            />
+            <p className="text-xs text-mocha-subtext0 mt-1">
+              Video link shown in header navigation
+            </p>
           </section>
 
           <div className="pt-6 border-t border-mocha-surface1">

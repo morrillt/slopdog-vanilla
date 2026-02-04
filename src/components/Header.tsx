@@ -1,45 +1,50 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LayoutGrid, Palette, Route, Navigation, Settings as SettingsIcon, Github, HelpCircle, Play, X, PanelLeftOpen, PanelLeftClose, FileText } from 'lucide-react';
+import { LayoutGrid, Palette, Route, Navigation, PanelLeftOpen, PanelLeftClose, FileText, Play, X } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { SettingsPanel } from './SettingsPanel';
 import { useSnapshot } from 'valtio';
 import { appStore } from '@/stores/appStore';
 
-const VideoModal = ({ isOpen, onClose, title }: { isOpen: boolean; onClose: () => void; title: string }) => {
+const VideoModal = ({ isOpen, onClose, videoUrl }: { isOpen: boolean; onClose: () => void; videoUrl: string }) => {
   if (!isOpen) return null;
-  const videoUrl = "https://www.youtube.com/embed/dQw4w9WgXcQ";
-  const autoplayUrl = `${videoUrl}?autoplay=1&mute=1`;
+  
+  // Convert YouTube watch URL to embed URL
+  const getEmbedUrl = (url: string) => {
+    const match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&]+)/);
+    if (match) {
+      return `https://www.youtube.com/embed/${match[1]}?autoplay=1`;
+    }
+    return url;
+  };
 
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-md p-4">
       <div className="relative w-full max-w-5xl bg-mocha-crust rounded-2xl overflow-hidden border border-mocha-surface1 shadow-2xl flex flex-col">
-        <div className="flex items-center justify-between px-8 py-6 bg-mocha-mantle border-b border-mocha-surface1">
-          <div className="flex flex-col gap-1">
-            <h3 className="text-mocha-lavender font-black text-4xl uppercase tracking-tighter">
-              {title}
+        <div className="flex items-center justify-between px-6 py-4 bg-mocha-mantle border-b border-mocha-surface1">
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 bg-mocha-yellow/20 border border-mocha-yellow/60 rounded rotate-45 flex items-center justify-center">
+              <Play className="w-4 h-4 text-mocha-yellow -rotate-45 ml-0.5" />
+            </div>
+            <h3 className="text-mocha-text font-bold text-xl">
+              Orientation
             </h3>
-            <p className="text-mocha-yellow text-xl font-bold animate-pulse flex items-center gap-2">
-              <span>meanwhile pls enjoy a song and dance.</span>
-              <span className="text-sm opacity-50 font-normal">(sorry, will add real video tomorrow :)</span>
-            </p>
           </div>
           <button 
             onClick={onClose}
-            className="p-3 bg-mocha-surface0 hover:bg-mocha-surface1 text-mocha-text rounded-full transition-colors shadow-lg"
+            className="p-2 bg-mocha-surface0 hover:bg-mocha-surface1 text-mocha-text rounded-full transition-colors"
           >
-            <X className="w-8 h-8" />
+            <X className="w-5 h-5" />
           </button>
         </div>
         <div className="aspect-video w-full bg-black">
           <iframe
             className="w-full h-full"
-            src={autoplayUrl}
-            title="YouTube video player"
+            src={getEmbedUrl(videoUrl)}
+            title="Orientation Video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           />
@@ -51,8 +56,7 @@ const VideoModal = ({ isOpen, onClose, title }: { isOpen: boolean; onClose: () =
 
 export function Header() {
   const [activeRoute, setActiveRoute] = useState('home');
-  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
-  const [videoModal, setVideoModal] = useState<{ isOpen: boolean; title: string }>({ isOpen: false, title: '' });
+  const [isVideoOpen, setIsVideoOpen] = useState(false);
   const pathname = usePathname();
   const snap = useSnapshot(appStore);
 
@@ -82,7 +86,7 @@ export function Header() {
               <span className="text-xs font-bold text-mocha-blue">NP</span>
             </div>
             <h1 className="text-lg font-black text-mocha-text tracking-tight uppercase">
-              Slopdog Vanilla
+              {snap.projectName}
             </h1>
           </div>
 
@@ -141,63 +145,32 @@ export function Header() {
           </div>
         </div>
 
-        <div className="flex items-center gap-6">
-          <div className="hidden lg:flex items-center gap-4 text-sm">
-            <a 
-              href="https://github.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-mocha-subtext1 hover:text-mocha-blue transition-colors"
-            >
-              <Github className="w-4 h-4" />
-              Repository
-            </a>
-            <button 
-              onClick={() => setVideoModal({ isOpen: true, title: 'What is this app?' })}
-              className="flex items-center gap-2 text-mocha-subtext1 hover:text-mocha-blue transition-colors"
-            >
-              <HelpCircle className="w-4 h-4" />
-              What is this app?
-            </button>
-            <button 
-              onClick={() => setVideoModal({ isOpen: true, title: 'Powered by Slopdog' })}
-              className="flex items-center gap-2 text-mocha-mauve hover:text-mocha-pink transition-colors font-mono font-bold"
-            >
-              <Image
-                alt="slopdog icon"
-                className="rounded-full"
-                height={20}
-                width={20}
-                priority
-                src="/image.png"
-              />
-              Powered by Slopdog
-            </button>
-          </div>
-
-          <div className="h-6 w-px bg-mocha-surface1 hidden lg:block" />
-
-          <div className="flex items-center gap-4">
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => setIsSettingsOpen(true)}
-              className="text-mocha-subtext1 hover:text-mocha-text"
-            >
-              <SettingsIcon className="w-5 h-5" />
-            </Button>
-          </div>
-        </div>
+        {/* Right side - Orientation Video */}
+        {snap.orientationVideoUrl && (
+          <button
+            onClick={() => setIsVideoOpen(true)}
+            className="group flex items-center gap-2 px-3 py-1.5 bg-mocha-surface0 hover:bg-mocha-yellow/20 border border-mocha-surface1 hover:border-mocha-yellow/50 rounded-lg transition-all"
+            title="Watch Orientation Video"
+          >
+            {/* Mini octagon play button */}
+            <div className="w-6 h-6 bg-mocha-yellow/20 group-hover:bg-mocha-yellow/40 border border-mocha-yellow/60 rounded rotate-45 flex items-center justify-center transition-colors">
+              <Play className="w-3 h-3 text-mocha-yellow -rotate-45 ml-0.5" />
+            </div>
+            <span className="hidden sm:block text-sm font-bold text-mocha-text group-hover:text-mocha-yellow transition-colors">
+              Orientation
+            </span>
+          </button>
+        )}
       </header>
 
-      {isSettingsOpen && (
-        <SettingsPanel onClose={() => setIsSettingsOpen(false)} />
+      {snap.isSettingsOpen && (
+        <SettingsPanel onClose={() => appStore.isSettingsOpen = false} />
       )}
 
       <VideoModal 
-        isOpen={videoModal.isOpen} 
-        onClose={() => setVideoModal({ isOpen: false, title: '' })} 
-        title={videoModal.title}
+        isOpen={isVideoOpen} 
+        onClose={() => setIsVideoOpen(false)} 
+        videoUrl={snap.orientationVideoUrl}
       />
     </>
   );

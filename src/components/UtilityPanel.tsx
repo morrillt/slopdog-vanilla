@@ -1,13 +1,17 @@
 'use client';
 
 import React from 'react';
-import { Layout, X } from 'lucide-react';
+import { Layout, X, Settings, Github, HelpCircle } from 'lucide-react';
+import { useSnapshot } from 'valtio';
+import { appStore } from '@/stores/appStore';
 
 interface UtilityPanelProps {
   onClose?: () => void;
 }
 
 export const UtilityPanel: React.FC<UtilityPanelProps> = ({ onClose }) => {
+  const snap = useSnapshot(appStore);
+
   return (
     <div className="h-full flex flex-col bg-mocha-mantle border-r border-mocha-surface1 w-80 overflow-hidden shadow-2xl p-4 space-y-6">
       <div className="p-2 border-b border-mocha-surface1 bg-mocha-crust -m-4 mb-2 px-4 py-4 relative">
@@ -28,16 +32,46 @@ export const UtilityPanel: React.FC<UtilityPanelProps> = ({ onClose }) => {
         )}
       </div>
 
-      <div className="flex-1 overflow-y-auto overflow-x-hidden space-y-6 py-2 custom-scrollbar">
-        {/* Content goes here in the future */}
-        <div className="flex flex-col items-center justify-center h-full opacity-20 italic text-sm">
-          No utilities active
-        </div>
+      <div className="flex-1 overflow-y-auto overflow-x-hidden space-y-2 py-2 custom-scrollbar">
+        {/* Settings */}
+        <button
+          onClick={() => appStore.isSettingsOpen = true}
+          className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-mocha-subtext1 hover:text-mocha-text hover:bg-mocha-surface0 transition-colors text-left"
+        >
+          <Settings className="w-5 h-5 text-mocha-lavender" />
+          <span className="font-medium">Settings</span>
+        </button>
+
+        {/* Repository */}
+        {snap.repositoryUrl && (
+          <a
+            href={snap.repositoryUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-mocha-subtext1 hover:text-mocha-text hover:bg-mocha-surface0 transition-colors"
+          >
+            <Github className="w-5 h-5 text-mocha-blue" />
+            <span className="font-medium">Repository</span>
+          </a>
+        )}
+
+        {/* What is this app? */}
+        {snap.appInfoUrl && (
+          <a
+            href={snap.appInfoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-mocha-subtext1 hover:text-mocha-text hover:bg-mocha-surface0 transition-colors"
+          >
+            <HelpCircle className="w-5 h-5 text-mocha-green" />
+            <span className="font-medium">What is this app?</span>
+          </a>
+        )}
       </div>
 
       <div className="pt-4 border-t border-mocha-surface1">
         <p className="text-[10px] text-mocha-subtext1 text-center italic opacity-50 uppercase tracking-widest">
-          Slopdog Vanilla UI
+          Powered by Slopdog
         </p>
       </div>
     </div>
