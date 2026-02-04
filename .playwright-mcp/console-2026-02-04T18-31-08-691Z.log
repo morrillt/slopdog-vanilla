@@ -1260,3 +1260,23 @@ Import trace:
 [ 3559848ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=7wvt0OKUFKkYgryfyNiYh." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
 [ 3564854ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=7wvt0OKUFKkYgryfyNiYh." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
 [ 3570809ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://127.0.0.1:3005/_next/webpack-hmr?id=7wvt0OKUFKkYgryfyNiYh." {file: "http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js" line: 10877}] @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_client_fd165e4a._.js:10877
+[ 4764839ms] [ERROR] Updating a style property during rerender (borderColor) when a conflicting property is set (borderLeftColor) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 4764839ms] [ERROR] Updating a style property during rerender (borderColor) when a conflicting property is set (borderLeftColor) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 4764840ms] [ERROR] Updating a style property during rerender (borderColor) when a conflicting property is set (borderLeftColor) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 4764840ms] [ERROR] Updating a style property during rerender (borderColor) when a conflicting property is set (borderLeftColor) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 4764840ms] [ERROR] Updating a style property during rerender (borderColor) when a conflicting property is set (borderLeftColor) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 4764841ms] [ERROR] Updating a style property during rerender (borderColor) when a conflicting property is set (borderLeftColor) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 4764841ms] [ERROR] Updating a style property during rerender (borderColor) when a conflicting property is set (borderLeftColor) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
+[ 5182194ms] [ERROR] ./playground/slopdog-vanilla/src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/LoggerDemo'
+  1 | import Image from "next/image";
+  2 |
+> 3 | import { LoggerDemo } from "@/components/LoggerDemo";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HomePage() {
+  6 |   return (
+
+Import map: aliased to relative './components/LoggerDemo' inside of [project]/playground/slopdog-vanilla/src
+
+https://nextjs.org/docs/messages/module-not-found @ http://127.0.0.1:3005/_next/static/chunks/e0594_next_dist_5009b40f._.js:3127
