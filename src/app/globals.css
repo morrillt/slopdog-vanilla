@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* Scan docs-router package for Tailwind classes */
-@source "../../../../packages/docs-router/src/**/*.{ts,tsx}";
+@source "../../../packages/docs-router/src/**/*.{ts,tsx}";
 
 @theme {
   --color-mocha-rosewater: #f5e0dc;
@@ -116,4 +116,3 @@ body {
   --tw-prose-th-borders: var(--color-mocha-surface1);
   --tw-prose-td-borders: var(--color-mocha-surface1);
 }
-
