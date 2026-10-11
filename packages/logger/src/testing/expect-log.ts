@@ -112,7 +112,10 @@ export async function expectLog(
         .join(", ")}`
     : `it never fired; last ids seen: ${entries
         .slice(-8)
-        .map((e) => e.id.replace(/-\d+-[a-z0-9]*$/, ""))
+        .map((e) => {
+          const bare = e.id.replace(/-\d+-[a-z0-9]*$/, "");
+          return bare === "undefined" ? `(no id: "${e.message ?? ""}")` : bare;
+        })
         .join(", ") || "(none)"}`;
   throw new Error(`expectLog: no "${id}" entry matching ${JSON.stringify(partialData)} within ${timeout}ms; ${detail}.`);
 }
