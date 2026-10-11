@@ -4,3 +4,4 @@ export * from "./valtio/store";
 export * from "./react/useLogger";
 export * from "./react/LogDrawer";
 export * from "./react/JsonViewer";
+export * from "./testing/expect-log";

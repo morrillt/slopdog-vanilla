@@ -11,10 +11,15 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
+    },
+    "./testing": {
+      "types": "./dist/testing.d.ts",
+      "import": "./dist/testing.js",
+      "require": "./dist/testing.cjs"
     }
   },
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts --external react --external react-dom --external valtio"
+    "build": "tsup src/index.ts src/testing.ts --format cjs,esm --dts --external react --external react-dom --external valtio"
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",

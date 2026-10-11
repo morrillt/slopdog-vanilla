@@ -1,5 +1,6 @@
 import { proxy, subscribe } from "valtio";
 import { LogEntry, LogLevel, ModuleConfig, LoggerStore } from "../core/types";
+import { LOG_HOOK_KEY } from "../testing/expect-log";
 
 export interface ValtioLoggerState {
   entries: LogEntry[];
@@ -17,6 +18,41 @@ const LOG_LEVEL_PRIORITY: Record<LogLevel, number> = {
   fatal: 5,
 };
 
+function isProductionBuild(): boolean {
+  try {
+    // Bundlers (Next included) replace process.env.NODE_ENV inline; the try covers a bare browser.
+    return process.env.NODE_ENV === "production";
+  } catch {
+    return false;
+  }
+}
+
+interface LogTestHook {
+  stores: Map<string, ValtioLoggerState>;
+  entries(): LogEntry[];
+  clear(): void;
+}
+
+/**
+ * The test hook expectLog reads (testing/expect-log.ts): every exposed store's entries, oldest
+ * first, as plain JSON. Keyed by storage key so a hot reload replaces its store instead of adding one.
+ */
+function exposeLogStore(key: string, state: ValtioLoggerState): void {
+  const g = globalThis as unknown as Record<string, LogTestHook | undefined>;
+  const hook: LogTestHook = g[LOG_HOOK_KEY] ?? {
+    stores: new Map(),
+    entries() {
+      const all = [...this.stores.values()].flatMap((s) => s.entries);
+      return JSON.parse(JSON.stringify(all.sort((a, b) => a.timestamp - b.timestamp)));
+    },
+    clear() {
+      this.stores.forEach((s) => { s.entries.length = 0; });
+    },
+  };
+  hook.stores.set(key, state);
+  g[LOG_HOOK_KEY] = hook;
+}
+
 export interface ValtioLoggerActions {
   toggleDrawer: (open?: boolean) => void;
   toggleModule: (module: string, enabled: boolean) => void;
@@ -30,7 +66,9 @@ export interface ValtioLoggerActions {
  */
 export function createValtioStore(options: { 
   storageKey?: string,
-  initialConfigs?: Record<string, ModuleConfig> 
+  initialConfigs?: Record<string, ModuleConfig>,
+  /** Put the entries on globalThis.__SLOPDOG_LOGS__ for expectLog. Default: in the browser, outside production builds. */
+  exposeForTests?: boolean,
 } = {}): LoggerStore & { state: ValtioLoggerState; actions: ValtioLoggerActions } {
   
   const state = proxy<ValtioLoggerState>({
@@ -53,6 +91,10 @@ export function createValtioStore(options: {
     subscribe(state.moduleConfigs, () => {
       localStorage.setItem(options.storageKey!, JSON.stringify(state.moduleConfigs));
     });
+  }
+
+  if (options.exposeForTests ?? (typeof window !== "undefined" && !isProductionBuild())) {
+    exposeLogStore(options.storageKey ?? "default", state);
   }
 
   const actions: ValtioLoggerActions = {
